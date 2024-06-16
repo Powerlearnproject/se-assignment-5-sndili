@@ -43,3 +43,87 @@ Answer the following questions based on your understanding of the installation a
 - Cite any references or sources you use in your answers.
 - Submit your completed assignment by 1st July 
 
+
+-- ANSWERS --
+
+### Installation of VS Code:
+
+1. **Download VS Code:**
+   - Visit the official Visual Studio Code website
+   - Click on the download button for Windows. This will download the installer (.exe file).
+
+2. **Install VS Code:**
+   - Once downloaded, run the installer.
+   - Follow the installation wizard instructions, selecting options as needed.
+
+### First-time Setup:
+
+After installing VS Code, perform these initial configurations:
+
+1. **Extensions:** Install essential extensions like `ESLint` for JavaScript development, `Python` for Python development, etc.
+   
+2. **Settings:** 
+   - Font size and family.
+   - Theme (e.g., Dark, Light).
+   - Editor preferences (e.g., tab size, line numbers).
+
+### User Interface Overview:
+
+1. **Activity Bar:** Provides quick access to different views like Explorer, Search, Source Control, etc.
+   
+2. **Side Bar:** Contains views like Explorer (file navigator), Search, Source Control (Git integration), and Extensions.
+
+3. **Editor Group:** Where open files are displayed. Multiple editor groups can be used for side-by-side editing.
+
+4. **Status Bar:** Displays information such as file encoding, line endings, and language mode.
+
+### Command Palette:
+
+- **Access:** Open with `Ctrl+Shift+P` (Windows) or `Cmd+Shift+P` (Mac).
+- **Examples:** Install extensions (`ext install ...`), change the theme (`Preferences: Color Theme`), manage Git (`Git: Pull`, `Git: Push`).
+
+### Extensions in VS Code:
+
+- **Role:** Extend functionality (e.g., language support, debuggers).
+- **Find/Install/Manage:** Access through Extensions view (Activity Bar > Extensions).
+- **Examples:** `Live Server` for web development, `Debugger for Chrome` for debugging JavaScript in Chrome.
+
+### Integrated Terminal:
+
+- **Open:** `Ctrl+` \`
+- **Advantages:** Contextual to project, supports multiple instances, easy output/access to scripts.
+
+### File and Folder Management:
+
+- **Create/Open/Manage:** Explorer view (Side Bar), `Ctrl+O` (Open File), `Ctrl+Shift+N` (New File).
+- **Navigate:** Click in Explorer, `Ctrl+Tab` (cycle open files).
+
+### Settings and Preferences:
+
+- **Access:** `Ctrl+,` (Windows) or `Cmd+,` (Mac).
+- **Examples:** Change theme (`workbench.colorTheme`), adjust font size (`editor.fontSize`), customize keybindings (`keybindings.json`).
+
+### Debugging in VS Code:
+
+1. **Setup:**
+   - Install necessary debugger extension.
+   - Set breakpoints (`F9`).
+   
+2. **Start Debugging:**
+   - `F5` or `Run > Start Debugging`.
+   
+3. **Features:** Step through code (`F10`, `F11`), inspect variables, call stack, watch expressions.
+
+### Using Source Control (Git):
+
+1. **Integrate Git:**
+   - Install Git on your system.
+   - Open a project folder in VS Code.
+   - Initialize a Git repository (`Git: Initialize Repository` in Command Palette).
+
+2. **Commits and Push:**
+   - Stage changes (`Git: Stage Changes`), commit (`Git: Commit`).
+   - Push changes to remote (`Git: Push`).
+
+
+
